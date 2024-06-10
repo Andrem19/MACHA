@@ -4,4 +4,6 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 
 from __init__ import app
-import routes
+import routes.home
+import routes.auth
+import routes.products
